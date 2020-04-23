@@ -12,4 +12,12 @@ spring:
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
-  type-aliases-package: com.atguigu.springcloud.entities #这里配的是统一的实体类包名，这样就可以在编写mapper时不用写实体类的完整名称了
+  #这里配的是统一的实体类包名，这样就可以在编写mapper时不用写实体类的完整名称了
+  type-aliases-package: com.atguigu.springcloud.entities
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
