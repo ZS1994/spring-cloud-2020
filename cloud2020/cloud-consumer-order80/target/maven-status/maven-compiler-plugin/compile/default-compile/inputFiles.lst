@@ -1,4 +1,6 @@
 D:\git_repository\spring-cloud-2020\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\controller\OrderController.java
 D:\git_repository\spring-cloud-2020\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\config\ApplicationContextConfig.java
+D:\git_repository\spring-cloud-2020\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lib\MyLB.java
+D:\git_repository\spring-cloud-2020\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lib\LoadBalance.java
 D:\git_repository\spring-cloud-2020\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\myrule\MySelfRule.java
 D:\git_repository\spring-cloud-2020\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\OrderMain80.java
