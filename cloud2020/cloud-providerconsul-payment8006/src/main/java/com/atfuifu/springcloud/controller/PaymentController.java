@@ -28,7 +28,7 @@ public class PaymentController {
     private DiscoveryClient discoveryClient;
 
     @GetMapping("/payment/consul/info")
-    public String paymentConsul(){
-        return "springcloud with consul:" + serverPort + "\t" + UUID.randomUUID().toString();
+    public CommonResult<String> paymentConsul(){
+        return new CommonResult<String>(200,"springcloud with consul:" + serverPort + "\t" + UUID.randomUUID().toString() + "\n port:" + serverPort);
     }
 }
